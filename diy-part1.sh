@@ -23,5 +23,4 @@ feed() {
 
 # Add a feed source
 feed nuexini https://github.com/NueXini/NueXini_Packages.git
-feed kenzok8 https://github.com/kenzok8/small-package.git
-git clone https://github.com/gngpp/luci-theme-design.git -b js package/luci-theme-design
+feed kiddin9 https://github.com/kiddin9/openwrt-packages.git
