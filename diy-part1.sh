@@ -22,8 +22,5 @@ feed() {
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#feed helloworld https://github.com/fw876/helloworld
-#feed turbocc https://github.com/chenmozhijin/turboacc.git luci
-
 feed nuexini https://github.com/NueXini/NueXini_Packages.git
-feed kiddin9 https://github.com/kiddin9/openwrt-packages.git
+git clone https://github.com/gngpp/luci-theme-design.git package/luci-theme-design
