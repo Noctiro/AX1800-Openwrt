@@ -23,4 +23,5 @@ feed() {
 
 # Add a feed source
 feed nuexini https://github.com/NueXini/NueXini_Packages.git
-git clone https://github.com/gngpp/luci-theme-design.git package/luci-theme-design
+feed nuexini https://github.com/kenzok8/small-package.git
+git clone https://github.com/gngpp/luci-theme-design.git -b js package/luci-theme-design
