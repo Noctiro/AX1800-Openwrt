@@ -35,6 +35,8 @@ env:
 jobs:
   build:
     runs-on: ubuntu-20.04
+    permissions:
+      actions: write
     strategy:
       fail-fast: false
     timeout-minutes: 360
